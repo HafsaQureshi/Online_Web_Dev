@@ -1,0 +1,220 @@
+   
+    body{
+      background-color: white;
+    }
+    @media screen and (min-width: 990px) {
+      .header-main{
+        display: flex;
+      }
+      
+  
+    }
+    .header-main{
+      
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding:0.5%;
+      /* height: 50px; */
+      /* line-height: 50%; */
+    }
+    .header-icons ,.h-button{
+      flex:1;
+
+    }
+
+  .h-icon{
+      margin-right:4% ;
+    }
+#button{
+    margin-right: 10%;
+}
+    .main:hover{
+      background-color: mediumblue;
+      
+    } 
+
+ .main3 .slide{
+   text-align: center;
+     width: 80%;
+    /* margin-left: 20%;
+     margin-right: 20%;  */
+     margin-top:2%
+     color:white;
+     }
+
+ .main4{
+   text-align: center;
+   margin-top: 3%;
+   background-color: rgb(251, 251, 251);
+   padding: 5% 15%;
+
+ }
+ .main4 h2{
+   color:rgb(10, 10, 202);
+ }
+ .main4 .img{
+   border-radius: 50px;
+ }
+ .main4 p{
+   text-align: justify;
+ }
+ .side-area{
+   color:green ;
+ }
+ .info-section{
+   background-color: blue;
+   padding:5%;
+   color: white;
+   text-align: center;
+
+ }
+ 
+
+ 
+ 
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+
+
+.sadqahContainer {
+  background-color: white;
+  box-shadow:5px 5px 8px grey;
+  margin:0px 0px 30px;
+  padding: 30px;
+}
+
+.container{ 
+  text-align: center;
+  margin-top:50px;
+  background-color:whitesmoke;
+
+}
+.sadqahContainer{
+  background-color: white;
+  /* padding:0px 0px 30px;
+  margin:30px; */
+}
+.container h2{
+  color: blue;
+} 
+.sadqah {
+  flex-flow: column;
+  padding: 0px 0px 10px;
+  margin:30px;
+
+}
+
+.sadqah img {
+  padding-bottom: 10px;
+}
+.fluidContainer{
+  text-align:center;
+  margin-top:50px;
+  margin-bottom:50px;
+  background: whitesmoke;
+
+}
+ @media screen and (max-width: 200px) {
+   .card{
+     padding: 0;
+   }
+} 
+.main6{
+  padding: 10% 5%;
+  background-color: white;
+   /* margin-top: 50px;  */
+}
+.main6 h2{
+  color: rgb(10, 10, 202);
+text-align: left;
+
+}
+ .main6 .card{
+   margin-top: 10%; 
+    margin-bottom: 20%;  
+    /* padding: 5%;  */
+  width: 300px;
+  height: 70px;
+  text-align: justify;
+  background-color: #F7F8FA; 
+   /* text-transform: uppercase;  */
+  } 
+
+ .mission {
+   
+   display: inline-block;
+   position: relative; 
+ }
+ .upcoming-project{
+    position: relative; 
+   float:left;
+   margin-right: 10%;
+   padding-bottom: 5%;
+ }
+ .events-main5{
+  margin-left: 20%;
+  }
+  .events-main5 h3{
+      color: rgb(10, 10, 202);
+  }
+
+.main7{
+  clear: both;
+  text-align: center;
+  width: 100%;
+padding: 50px;
+background-color: white;
+}
+.main7 h3{
+  color: rgb(10, 10, 202);
+}
+
+}
+
+ .main8{
+background-color: rgb(53, 51, 51);
+}
+ .footer{
+background-color:rgb(23, 29, 29); */
+padding: 3% 5%;
+color:white;
+
+ }
+
+.footer-logo .foot-logo{
+
+width: 30px;
+height: 30px;
+background-color:  #316DD9;
+border-radius: 30px;
+padding: 1.8%;
+}
+.footer-bottom{
+background-color: rgb(74, 74, 226);
+/* height: 40px; */
+/* line-height: 50px; */
+text-align: center;
+padding-right: 20%;
+color: white;
+display: flex;
+padding-top: 2%;
+flex:1
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    
+
+    }
+  }
